@@ -1,0 +1,107 @@
+:root {
+    --bg_color: rgb(235, 231, 14);
+    --font_color: blue;
+}
+
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--font_color);
+}
+
+p {
+    font-size: 22px;
+}
+
+#header {
+    background-color: var(--bg_color);
+    border: 5px;
+    border-style: solid;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#nav {
+    text-align: center;
+    margin: 20px auto;
+    background-color: var(--bg_color);
+    color: var(--font_color);
+    border: 5px;
+    border-style: solid;
+    font-size: 22px;
+    float: left;
+    padding: 10px;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#bendy {
+    text-align: center;
+    margin: 20px auto;
+    background-color: var(--bg_color);
+    color: var(--font_color);
+    border: 5px;
+    height: 700px;
+    width: 700px;
+    border-style: solid;
+    font-size: 22px;
+    float: right;
+    padding: 10px;
+}
+
+#stretchy {
+    text-align: center;
+    text-wrap: pretty;
+    height: 700px;
+    width: 700px;
+    margin: 20px auto;
+    background-color: var(--bg_color);
+    color: var(--font_color);
+    border: 5px;
+    border-style: solid;
+    font-size: 22px;
+    float: right;
+    padding: 10px;
+}
+
+#foot_links {
+    font-size: 22px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    background-color: var(--bg_color);
+    border: 5px;
+    border-style: solid;
+}
+
+a:hover {
+    color: red;
+}
+
+a[id='contact']::before {
+    content: "☎ ";
+    color: black;
+    font-size: 1.5rem;
+}
+
+#ruler {
+    width: 447px;
+    height: 480px;
+}
+
+#stretch {
+    width: 540px;
+    height: 372px;
+}
