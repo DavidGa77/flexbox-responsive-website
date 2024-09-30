@@ -13,6 +13,10 @@ p {
     font-size: 22px;
 }
 
+textarea {
+    height: 250px;
+}
+
 #header {
     background-color: var(--bg_color);
     border: 5px;
@@ -39,9 +43,9 @@ p {
 
 #content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: left;
     text-align: center;
     margin: 20px auto;
 }
@@ -75,6 +79,19 @@ p {
     padding: 10px;
 }
 
+#contact_us {
+    text-align: left;
+    text-wrap: pretty;
+    width: 200px;
+    margin: 20px auto;
+    background-color: var(--bg_color);
+    color: var(--font_color);
+    border: 5px;
+    border-style: solid;
+    font-size: 22px;
+    padding: 10px;
+}
+
 #foot_links {
     font-size: 22px;
     display: flex;
@@ -92,7 +109,7 @@ a:hover {
 
 a[id='contact']::before {
     content: "☎ ";
-    color: black;
+    color: blue;
     font-size: 1.5rem;
 }
 
